@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ApiClass2 from "./apiClass2.jsx"
+import ApiClass1 from "./apiClass1.jsx"
+import ApiHooks1 from "./apiHooks1.jsx"
+import ApiHooks2 from "./apiHooks2.jsx"
+import Search from "./search.jsx"
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
 
-function App() {
+
+export default function App () {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        {/* <ApiClass2/> */}
+        {/* <ApiClass1/> */}
+        {/* <ApiHooks1/> */}
+        <ApiHooks2/>
+        {/* <Search/> */}
+      </div>
+    </>
   );
 }
 
-export default App;
